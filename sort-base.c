@@ -40,7 +40,7 @@ int main (int argc, char *argv[]) {
   if (argc<1) {
     al = 1;
   } else {
-    al = atoi (argv[1]);   // atoiは文字列を数値に変替する関数
+    al = atoi (argv[1]);   // atoiは文字列を数値に変換する関数
   }
   // 標準入力から数列を読み込む
   int nelm=0;        // 配列の要素数 
