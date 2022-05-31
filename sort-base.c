@@ -5,14 +5,14 @@
 //////////////////////////////////////////////////
 // 課題8: バブルソート
 // num[0]~nums[nelm-1]を昇順に並べ替える
-int bubble_sort (int nums[], int nelm)
+void bubble_sort (int nums[], int nelm)
 {
   // ここを演習で作成する
 }
 
 // 課題9: クイックソート
 // num[0]~nums[nelm-1]を昇順に並べ替える
-int quick_sort (int nums[], int nelm)
+void quick_sort (int nums[], int nelm)
 {
   // ここを演習で作成する
 }
