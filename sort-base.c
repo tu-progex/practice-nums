@@ -37,7 +37,7 @@ void print_nums (int *nums, int nelm)
 int main (int argc, char *argv[]) {
   // バブルソートとクイックソートのどちらを使うかを選択
   int al;  // al==1ならバブルソート，al==2ならクイックソート
-  if (argc<1) {
+  if (argc<2) {
     al = 1;
   } else {
     al = atoi (argv[1]);   // atoiは文字列を数値に変換する関数
